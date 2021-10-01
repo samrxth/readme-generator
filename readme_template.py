@@ -13,6 +13,7 @@ if len(sys.argv) < 3:
 github_username = sys.argv[1]
 repo_name = sys.argv[2]
 
+short_repo_url = f"https://github.com/{github_username}/{repo_name}"
 repo_url = f"https://github.com/{github_username}/{repo_name}"
 with open("README.md", "w") as f:
     f.write(
@@ -20,12 +21,12 @@ with open("README.md", "w") as f:
 <p align="center">
   <img src="product icon" />
 </p>
-<h1 align="center">Product Name</h1>
+<h1 align="center">{repo_name}</h1>
 <h4 align="center">
 1 Line Description.</h1>
 <br>
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0"> <img src="https://img.shields.io/github/license/{github_username}/{repo_name}"> <img src="https://img.shields.io/tokei/lines/github/{github_username}/{repo_name}?label=lines%20of%20code"> <img src="https://img.shields.io/github/languages/top/{repo_url}/{repo_name}">
+  <img src="https://img.shields.io/badge/version-1.0.0"> <img src="https://img.shields.io/github/license/{github_username}/{repo_name}"> <img src="https://img.shields.io/tokei/lines/github/{github_username}/{repo_name}?label=lines%20of%20code"> <img src="https://img.shields.io/github/languages/top/{github_username}/{repo_name}">
   <img src="https://img.shields.io/github/repo-size/{github_username}/{repo_name}">
 </p>
 <br>
@@ -73,9 +74,9 @@ command you can use to run project tests.
 <br>
 
 ## :clap: Supporters
-[![Stargazers repo roster for yourrepourl](https://reporoster.com/stars/{github_username}/{repo_name})](https://github.com/yourrepourl/stargazers)
+[![Stargazers repo roster for {short_repo_url}](https://reporoster.com/stars/{github_username}/{repo_name})](https://github.com/{short_repo_url}/stargazers)
 
-[![Forkers repo roster for yourrepourl](https://reporoster.com/forks/{github_username}/{repo_name})](https://github.com/yourrepourl/network/members)
+[![Forkers repo roster for {short_repo_url}](https://reporoster.com/forks/{github_username}/{repo_name})](https://github.com/{short_repo_url}/network/members)
 
 <br>
 
@@ -108,9 +109,8 @@ Special thanks to:
 [SomeUser](https://www.github.com/linktotheirgithub) what they did.
 
 ## Built With
-[Name Of Technology](Link to Homepage)
-
-[Name of library](Link to library)
+* [Name Of Technology](Link to Homepage)
+* [Name of library](Link to library)
 
 ## Versioning
 
