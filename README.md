@@ -37,4 +37,4 @@ python ./readme_template.py [github_username] [repo_name]
 ## Authors
 [samrath2007](https://github.com/samrath2007) - Role in the project.
 
-This project is licensed under GNU General Public License version 2 - see the [LICENSE.md](LICENSE) file for details.
+This project is licensed under GNU General Public License version 2 - see the [LICENSE](LICENSE) file for details.
