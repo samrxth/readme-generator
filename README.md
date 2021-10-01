@@ -1,6 +1,6 @@
 <h1 align="center">README GENERATOR</h1>
 <h4 align="center">
-A quick readme generator based on https://github.com/XtremeDevX/README-Template</h1>
+A quick readme generator in python</h1>
 <br>
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0.0--beta-green">
@@ -35,6 +35,7 @@ python ./readme_template.py [github_username] [repo_name]
 ```
 
 ## Authors
-[samrath2007](https://github.com/samrath2007) - Role in the project.
+[samrath2007](https://github.com/samrath2007) - Author, made all the python automation
+[XtremeDevX](https://github.com/XtremeDevX) - Creator of the README template(without any automation)
 
 This project is licensed under GNU General Public License version 2 - see the [LICENSE](LICENSE) file for details.
