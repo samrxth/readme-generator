@@ -35,7 +35,7 @@ python ./readme_template.py [github_username] [repo_name]
 ```
 
 ## Authors
-[samrath2007](https://github.com/samrath2007) - Author, made all the python automation
-[XtremeDevX](https://github.com/XtremeDevX) - Creator of the [README template](https://github.com/XtremeDevX/README-Template)
+* [samrath2007](https://github.com/samrath2007) - Author, made all the python automation
+* [XtremeDevX](https://github.com/XtremeDevX) - Creator of the [README template](https://github.com/XtremeDevX/README-Template)
 
 This project is licensed under GNU General Public License version 2 - see the [LICENSE](LICENSE) file for details.
