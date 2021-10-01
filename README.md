@@ -3,7 +3,10 @@
 1 Line Description.</h1>
 <br>
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0"> <img src="https://img.shields.io/github/license/samrath2007/readme-generator"> <img src="https://img.shields.io/tokei/lines/github/samrath2007/readme-generator?label=lines%20of%20code"> <img src="https://img.shields.io/github/languages/top/https://github.com/samrath2007/readme-generator/readme-generator">
+  <img src="https://img.shields.io/badge/version-1.0.0--beta-green">
+  <img src="https://img.shields.io/github/license/samrath2007/readme-generator">
+  <img src="https://img.shields.io/tokei/lines/github/samrath2007/readme-generator?label=lines%20of%20code">
+  <img src="https://img.shields.io/github/languages/samrath2007/readme-generator">
   <img src="https://img.shields.io/github/repo-size/samrath2007/readme-generator">
 </p>
 <br>
