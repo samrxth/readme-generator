@@ -14,8 +14,9 @@ github_username = sys.argv[1]
 repo_name = sys.argv[2]
 
 repo_url = f"https://github.com/{github_username}/{repo_name}"
-print(
-    f"""
+with open("README.md", 'w') as f:
+    f.write(
+        f"""
 <p align="center">
   <img src="product icon" />
 </p>
@@ -82,19 +83,19 @@ command you can use to run project tests.
 ## :hammer: Build Status
 | Feature                            | Build Status   |
 |------------------------------------|----------------|
-| Installation                       | ✅             |
-| Portable Installation              | ✅             |
-| Uninstallation                     | ✅             |
-| Update                             | ✅             |
-| Show                               | ✅             |
-| List                               | ✅             |
-| Search                             | ✅             |
-| Code Editor Extension Installation | ✅             |
-| Python Package Installation        | ✅             |
-| NodeJS Package Installation        | ✅             |
-| Configuration Management           | ✅             |
-| Cleanup                            | ✅             |
-| Tab Completion                     | ✅             |
+| Installation                       | ‚úÖ             |
+| Portable Installation              | ‚úÖ             |
+| Uninstallation                     | ‚úÖ             |
+| Update                             | ‚úÖ             |
+| Show                               | ‚úÖ             |
+| List                               | ‚úÖ             |
+| Search                             | ‚úÖ             |
+| Code Editor Extension Installation | ‚úÖ             |
+| Python Package Installation        | ‚úÖ             |
+| NodeJS Package Installation        | ‚úÖ             |
+| Configuration Management           | ‚úÖ             |
+| Cleanup                            | ‚úÖ             |
+| Tab Completion                     | ‚úÖ             |
 
 <br>
 
