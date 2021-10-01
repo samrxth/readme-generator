@@ -12,8 +12,6 @@ A quick readme generator written in python</h1>
 <br>
 
 # :zap: Installation
-
-Any steps you need to run before installation or important notes.
 <br>
 
 ## Build From Source
