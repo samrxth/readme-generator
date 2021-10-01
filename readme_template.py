@@ -6,7 +6,8 @@ if len(sys.argv) > 3:
     sys.exit()
 
 if len(sys.argv) < 3:
-    print('Missing arguements.\n usage: python readme_template.py [repository_name] [github_username]')
+    print(
+        'Missing arguements.\n usage: python readme_template.py [repository_name] [github_username]')
     sys.exit()
 
 github_username = sys.argv[1]
@@ -14,7 +15,7 @@ repo_name = sys.argv[2]
 
 repo_url = f"https://github.com/{github_username}/{repo_name}"
 print(
-f"""
+    f"""
 <p align="center">
   <img src="product icon" />
 </p>
