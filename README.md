@@ -1,6 +1,6 @@
 <h1 align="center">README GENERATOR</h1>
 <h4 align="center">
-1 Line Description.</h1>
+A quick readme generator based on https://github.com/XtremeDevX/README-Template</h1>
 <br>
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0.0--beta-green">
