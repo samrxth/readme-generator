@@ -24,7 +24,7 @@ Prerequisites: **Git**, **Python**
 git clone https://github.com/samrath2007/readme-generator
 ```
 
-2. Change to the electric directory.
+2. Change to the project directory.
 ```sh
 cd readme-generator
 ```

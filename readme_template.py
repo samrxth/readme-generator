@@ -1,20 +1,20 @@
-import os
 import sys
 
 if len(sys.argv) > 3:
-    print('You have specified too many arguments')
+    print("You have specified too many arguments")
     sys.exit()
 
 if len(sys.argv) < 3:
     print(
-        'Missing arguements.\n usage: python readme_template.py [repository_name] [github_username]')
+        "Missing arguements.\n usage: python readme_template.py [repository_name] [github_username]"
+    )
     sys.exit()
 
 github_username = sys.argv[1]
 repo_name = sys.argv[2]
 
 repo_url = f"https://github.com/{github_username}/{repo_name}"
-with open("README.md", 'w') as f:
+with open("README.md", "w") as f:
     f.write(
         f"""
 <p align="center">
@@ -50,7 +50,7 @@ Prerequisites: **Git**, **Language Dependencies**
 git clone {repo_url}
 ```
 
-2. Change to the electric directory.
+2. Change to the project directory.
 ```sh
 cd repo_name
 ```
@@ -119,4 +119,5 @@ We use [type of versioning](details about the versioning with a link) for versio
 ## License
 
 This project is licensed under yourlicense - see the [LICENSE.md](LICENSE) file for details.
-""")
+"""
+    )
