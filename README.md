@@ -17,7 +17,7 @@ A quick readme generator written in python</h1>
 ## Build From Source
 Prerequisites: **Git**, **Python**
 
-1. Clone the github repository using the Github CLI.
+1. Clone the github repository using the git CLI.
 ```sh
 git clone https://github.com/samrath2007/readme-generator
 ```
