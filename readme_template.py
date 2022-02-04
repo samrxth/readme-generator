@@ -6,7 +6,7 @@ if len(sys.argv) > 3:
 
 if len(sys.argv) < 3:
     print(
-        "Missing arguements.\n usage: python readme_template.py [repository_name] [github_username]"
+        "Missing arguements.\n usage: python readme_template.py [github_username] [repository_name]"
     )
     sys.exit()
 
